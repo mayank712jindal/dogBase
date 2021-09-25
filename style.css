@@ -1,26 +1,34 @@
 body {
-  background-color: #e3e3e3;
+  background-color: #edf6f9;
 }
 
-.brand > span {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 16px;
-}
-.brand a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-  color: black;
-}
-.card-img-top {
+.img-top {
+  width: 100%;
   height: 300px;
 }
 .card {
   min-width: 280px;
   max-width: 350px;
   margin: 10px 5px;
-  min-height: 700px;
+  height: 700px;
+  border: 1px solid #006d77;
+  box-shadow: 5px 5px 10px #83c5be;
+}
+.display-4 {
+  color: #e29578;
+  font-weight: bold;
+}
+.btn {
+  background-color: #e29578;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+}
+.btn:hover {
+  background-color: #bc6c25;
 }
 
 /* part 2  */
@@ -48,12 +56,14 @@ select {
   font-size: 1rem;
   text-align: left;
   transition: all 0.2s;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 500px;
+  border: 1px solid #006d77;
+  box-shadow: 5px 5px 10px #83c5be;
 }
 
 #breed_image {
   background: #fff;
   margin: 0 auto;
-  width: 460px;
+  width: 100%;
 }
