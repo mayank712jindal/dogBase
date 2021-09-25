@@ -1,0 +1,59 @@
+body {
+  background-color: #e3e3e3;
+}
+
+.brand > span {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.brand a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: black;
+}
+.card-img-top {
+  height: 300px;
+}
+.card {
+  min-width: 280px;
+  max-width: 350px;
+  margin: 10px 5px;
+  min-height: 700px;
+}
+
+/* part 2  */
+#banner-message {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#banner-message input,
+select {
+  padding: 5px 8px;
+  margin: 5px 8px;
+}
+
+#breed_data {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 1rem;
+  text-align: left;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#breed_image {
+  background: #fff;
+  margin: 0 auto;
+  width: 460px;
+}
